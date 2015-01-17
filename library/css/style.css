@@ -1297,7 +1297,7 @@ style a page via class
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 96%;
+  width: 100%;
   margin: 0 auto; }
 
 /*********************
@@ -1986,7 +1986,9 @@ you can add resource intensive styles.
   
   ******************************************************************/
   .wrap {
-    width: 1040px; } }
+    width: 1040px; } 
+
+  }
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
