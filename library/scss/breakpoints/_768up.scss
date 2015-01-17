@@ -42,7 +42,7 @@ NAVIGATION STYLES
 .nav {
 	border: 0;
 	ul {
-		background:$black;
+		background:$white;
 		margin-top:0;
 	}
 	li {
@@ -57,8 +57,7 @@ NAVIGATION STYLES
 			has the possibility of being a mobile device.
 			*/
 			&:hover, &:focus {
-				color: $white;
-				text-decoration: underline;
+				color: $black;
 			}
 		}
 
@@ -83,7 +82,6 @@ NAVIGATION STYLES
 					padding-left: 10px;
 					border-right: 0;
 					display: block;
-					width: 180px;
 					border-bottom: 1px solid #ccc;
 
 					&:hover,

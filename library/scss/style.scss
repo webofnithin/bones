@@ -105,69 +105,7 @@ you can add resource intensive styles.
 	// styles in 1030up.scss
 	@import "breakpoints/1030up";
 
-	.pad-small-lr{
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-
-	.pad-small-tb{
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-
-	.logo-mK img{
-		width: 100px;
-		margin-top: 0;
-	}
-	.h-100{
-		height: 100px;
-	}
-
-	/*main menu styles*/
-
-	.main-menu{
-		padding-top: 25px;
-		ul{
-			li{
-				@extend .pad-small-lr;
-				ul.sub-menu {
-					margin-left: -30px;
-					li {
-						a{
-							width: auto;
-						}
-					}
-				}
-			}
-		}
-	}
-
-
-
-	/*********************
-	HEADER STYLES
-	*********************/
-
-	.header {
-		background-color: $white;
-	}
-
-		#logo {
-			margin: 0.75em 0;
-
-			a {
-				color: $white;
-			}
-		}
-
-
-	/* front page only styles */
-	.front_page{
-		.header {
-			background-color: transparent;
-		}
-	}
-	/* front page only stle ends here */
+	
 
 } // end of media query
 
