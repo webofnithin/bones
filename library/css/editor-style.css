@@ -664,6 +664,22 @@ body#tinymce.wp-editor span.amp {
   font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
   font-style: italic;
 }
+/* line 501, ../scss/partials/_normalize.scss */
+body#tinymce.wp-editor img {
+  width: 100%;
+}
+/* line 504, ../scss/partials/_normalize.scss */
+body#tinymce.wp-editor .text-center {
+  text-align: center;
+}
+/* line 507, ../scss/partials/_normalize.scss */
+body#tinymce.wp-editor .pull-right {
+  float: right !important;
+}
+/* line 510, ../scss/partials/_normalize.scss */
+body#tinymce.wp-editor .pull-left {
+  float: left !important;
+}
 /* line 65, ../scss/partials/_typography.scss */
 body#tinymce.wp-editor p {
   -ms-word-wrap: break-word;
