@@ -105,6 +105,16 @@ you can add resource intensive styles.
 	// styles in 1030up.scss
 	@import "breakpoints/1030up";
 
+	.pad-small-lr{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.pad-small-tb{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
 } // end of media query
 
 /*********************
